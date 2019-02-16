@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    height: .98rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+}
+.footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul li,.footer ul li a{
+    width:100%;
+    height: 100%;
+}
+.footer ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .1rem;
+}
+.footer ul li a i{
+    margin-bottom: .08rem;
+    font-size: .38rem;
+}
+.active{
+    color: rgb(173, 14, 17);
+}
